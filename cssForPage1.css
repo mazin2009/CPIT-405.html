@@ -1,71 +1,64 @@
 
-body {
-   margin-top: 5px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 150px; 
+body  {
+   margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 10%;
+    margin-left: 10%; 
 }
  
  
-#B1 {
-
-background-color:rgba(246, 246, 239 , 1);
- 
+#secondBody {
+background-color:rgba(246, 246, 255 , 1);
 }
 
-
-#BG1 {
+#TopIcons {
 display : inline-flex;
-height : 80px;
 font-weight : bold ;
- font-family: Arial;
- 
+font-family: Arial;
 }
 
-#BG1 a {
+#TopIcons a {
 	text-decoration:none;
 	color : white;
 	font-size: 100%;
-	line-height: 80px;
+	line-height: 500%;
 } 
 
-.BGOrange {
+.OrangeBackgraund {
  
 background-color:rgba(240, 117, 48 , 1);
-    width : 813px;
+    width : 926px;
 
  }
   
-.story {
+.SubjectTitle {
 color : black;
 font-size: 120%;
 text-decoration:none;
   font-weight: bold;
   padding-left: 10px;  
- 	 
-	 
+
 }
 
 
 .hline-bottom {
-    margin-right: 20px;
-    padding-bottom: 20px;
+    margin-right: 1%;
+    padding-bottom: 1%;
     border-bottom: 2px solid gray; 
- 
- 
 }
 
 
-li.NonType {
+li.discriptin {
  font-size: 100%;
  list-style-type: none;
   font-weight: none;
+  padding-top : 4px;
 }
 
 #footDiv a {
 font-weight : bold;
 color : black;
-	text-decoration:none;
+text-decoration:none;
 }
 
 
@@ -80,17 +73,23 @@ color : gray;
 
 #FirstIcon{
 background: gray  ;
-width : 150px;
+width : 15%;
 text-align: center; 
 vertical-align: middle;
-
 }
 
-span {
+#span1 {
       padding: 31px 25px 32px 25px;
 }
 
-span:hover {
+#span1:hover {
 color : black ;
 background-color:rgba(246, 246, 239 , 1);
+}
+
+#Span2 {
+	width :20px;
+	padding-left : 20px;
+	padding-right : 10px;
+	
 }
