@@ -68,7 +68,7 @@ color : gray;
 }
 
 .ImgList {
-
+list-style-type: none;
  list-style-image: url('https://mazin2009.github.io/CPIT-405.html/2.PNG');
  
 }
