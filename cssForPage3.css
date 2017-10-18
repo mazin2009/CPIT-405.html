@@ -25,7 +25,7 @@ body {
  margin-top : 10px;
  width:94%;
  height : 40px;
- background : #ADD8E6 ; 
+
    border: 1px solid black;
   color: white;  
    padding-left:20px;
@@ -34,16 +34,13 @@ body {
 
  }
  
-  .Input1 {
-margin-top : 10px;
- width:94%;
- height : 40px;
-   border: 1px solid black;
-   padding-left:20px;
-   font-size:100%;
-   font-weight:bold; 
- }
+ .Input:focus {
 
+ background : #ADD8E6 ; 
+
+
+ }
+ 
  
  form {
  font-size : 20px;
