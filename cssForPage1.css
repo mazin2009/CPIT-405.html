@@ -4,9 +4,24 @@ body  {
     margin-bottom: 1%;
     margin-right: 10%;
     margin-left: 10%; 
+
+    background-image: url("backgroundPic.png");
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+   
 }
  
  
+ 
+output {
+	
+margin-left : 15px;
+margin-right : 2px;	
+	
+	
+}
 #secondBody {
 background-color:rgba(246, 246, 255 , 1);
 }
@@ -27,7 +42,7 @@ font-family: Arial;
 .OrangeBackgraund {
  
 background-color:rgba(240, 117, 48 , 1);
-    width : 1200px;
+    width : 926px;
 
  }
   
@@ -51,8 +66,9 @@ text-decoration:none;
 li.discriptin {
  font-size: 100%;
  list-style-type: none;
-  font-weight: none;
+ 
   padding-top : 4px;
+  list-style-image: none;
 }
 
 #footDiv a {
@@ -67,13 +83,17 @@ text-decoration:none;
 color : gray;
 }
 
-.ImgList {
 
+#sortBy{
+	float : right;
 	
- list-style-image: url('https://imgur.com/a/Z2G7l');
- 
 }
+ 
 
+ul li {
+	
+	 list-style-image: url('ListIMG.png');
+}
 #FirstIcon{
 background: gray  ;
 width : 15%;
@@ -81,15 +101,25 @@ text-align: center;
 vertical-align: middle;
 }
 
-#span1 {
+.span1 {
       padding: 31px 25px 32px 25px;
 }
 
-#span1:hover {
+.span1:hover {
 color : black ;
 background-color:rgba(246, 246, 239 , 1);
 }
-
+#hid {
+	
+	border-top: 2px solid LightGray;
+	border-bottom: 1px solid LightGray; 
+	font-size: 100% ;  
+	margin-top : 7px;
+	
+	padding : 10px;
+ 
+	
+}
 #Span2 {
 	width :20px;
 	padding-left : 20px;
