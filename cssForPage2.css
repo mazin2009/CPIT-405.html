@@ -1,11 +1,13 @@
-
+ 
   
-body {
+ 
+  body {
+    background-image: url("backgroundPic.png");
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
 
-	background : #CCCCCC 
-	 
-}
-
+   }
 
 #Body1 {
     margin-top: 1%;
@@ -15,8 +17,21 @@ body {
     padding-top: 4%;
     padding-right: 2%;
     padding-left: 2%;
+	 
 }
 
+img {
+	
+	
+	 cursor:pointer ;
+}
+
+output {
+	
+	
+	
+	margin-left:5px;
+}
 .Style1 {
 
 padding-left: 2%;
