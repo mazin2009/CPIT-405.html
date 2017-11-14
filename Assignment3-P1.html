@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title> techNews </title>
+    <link rel="stylesheet" type="text/css" href="cssForPage1.css">
+</head>
+
+<body>
+
+    <div id="secondBody">
+
+        <div id="TopIcons">
+            <div id="FirstIcon">
+                <img alt="homeIcon" width="30" height="25" src="home.png">
+                <a href="">Tnews </a>
+            </div>
+            <div class=OrangeBackgraund>
+                <a href="">
+                    <span onclick="changeHove();" class="span1"> News </span>
+                </a>
+                <a href="">
+                    <span class="span1"> Comments </span>
+                </a>
+                <a href="">
+                    <span class="span1"> Show </span>
+                </a>
+                <a href="">
+                    <span class="span1"> Ask </span>
+                </a>
+                <a href="">
+                    <span class="span1"> Jobs </span>
+                </a>
+                <a href="https://mazin2009.github.io/CPIT-405.html/Assignment2-P3.html">
+                    <span class="span1">Submit News</span>
+                </a>
+            </div>
+        </div>
+
+
+        <div id="hid">
+            Main Stories
+            <time class="grayColor" datetime="2017-10-14 20:00">10/02/2017</time>
+
+            <div id="sortBy">
+                <label for="select1">Sort By:</label>
+                <select id="select1">
+
+                    <option id="sortByLike" value="Likes"> Likes </option>
+                    <option id="sortBycomment" value="Comments">Comments</option>
+                    <option id="sortBydate" value="Newsest">Newsest</option>
+                </select>
+            </div>
+
+        </div>
+
+        <ul id="MainList">
+            <li id="LI1" class=" ImgList">
+                <a href="" class="SubjectTitle">High-level language computer architecture </a>
+                <ul class=" hline-bottom">
+                    <li class="discriptin">
+
+                        <output id="Like1"> </output> Liks &nbsp;|
+                        <output id="Date1"> </output> &nbsp; |
+                        <output id="comment1"> </output> Comments
+
+                    </li>
+                </ul>
+            </li>
+
+
+
+            <li id="LI2" class="ImgList">
+                <a href="" class="SubjectTitle">Measuring programming language popularity </a>
+                <ul class=" hline-bottom">
+                    <li class="discriptin">
+                        <output id="Like2"> </output> Liks &nbsp;|
+                        <output id="Date2"> </output> &nbsp; |
+                        <output id="comment2"> </output> Comments
+                    </li>
+                </ul>
+            </li>
+
+
+
+            <li id="LI3" class="ImgList">
+                <a href="" class="SubjectTitle">Pervasive, Quality-Assured Service Composition and Delivery </a>
+
+                <ul class=" hline-bottom">
+                    <li class="discriptin">
+
+                        <output id="Like3"> </output> Liks &nbsp;|
+                        <output id="Date3"> </output> &nbsp; |
+                        <output id="comment3"> </output> Comments
+
+
+                    </li>
+                </ul>
+            </li>
+
+
+
+            <li id="LI4" class="ImgList">
+                <a href="" class="SubjectTitle">Essentials of Programming Languages
+                </a>
+
+                <ul class=" hline-bottom">
+                    <li class="discriptin">
+
+                        <output id="Like4"> </output> Liks&nbsp; |
+                        <output id="Date4"> </output>&nbsp;|
+                        <output id="comment4"> </output> Comments
+
+
+                    </li>
+                </ul>
+
+            </li>
+
+
+
+            <li id="LI5" class="ImgList">
+                <a href="" class="SubjectTitle">Domain-specific multimodeling </a>
+
+                <ul class=" hline-bottom">
+                    <li class="discriptin">
+
+
+                        <output id="Like5"> </output> Liks&nbsp; |
+                        <output id="Date5"> </output> &nbsp; |
+                        <output id="comment5"> </output> Comments
+
+
+                    </li>
+                </ul>
+            </li>
+
+
+
+            <li id="LI6" class="ImgList">
+                <a href="" class="SubjectTitle">Cognitive dimensions of notations</a>
+
+                <ul class=" hline-bottom">
+                    <li class="discriptin">
+
+                        <output id="Like6"> </output> Liks &nbsp;|
+                        <output id="Date6"> </output> &nbsp; |
+                        <output id="comment6"> </output> Comments
+
+
+                    </li>
+                </ul>
+
+            </li>
+
+
+
+            <li id="LI7" class="ImgList">
+                <a href="" class="SubjectTitle">A bstraction principle (computer programming) </a>
+
+                <ul class=" hline-bottom">
+                    <li class="discriptin">
+
+
+                        <output id="Like7"> </output>Liks&nbsp; |
+                        <output id="Date7"> </output> &nbsp; |
+                        <output id="comment7"> </output> Comments
+
+                    </li>
+                </ul>
+            </li>
+
+
+
+            <li id="LI8" class="ImgList">
+                <a href="" class="SubjectTitle">Data mining methods for linked data</a>
+
+                <ul class=" hline-bottom">
+                    <li class="discriptin">
+
+                        <output id="Like8"> </output> Liks &nbsp; |
+                        <output id="Date8"> </output> &nbsp; |
+                        <output id="comment8"> </output> Comments
+                    </li>
+                </ul>
+
+            </li>
+
+
+
+
+
+
+        </ul>
+
+        <hr>
+
+        <footer style="   text-align: center;  padding-bottom: 20px;">
+            <p> &copy; 2017 HN inc.All Rights Reserved.</p>
+
+            <div id="footDiv">
+                <a href=""> Privacy |</a>
+                <a href=""> Terms of Use |</a>
+                <a href=""> Contact </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+
+ 
+        //////////////////////////////////////////////////////////////////////////////////////////////////////
+        var LI = document.getElementById("LI1");
+        var like = document.getElementById("Like1");
+        var Date1 = document.getElementById("Date1");
+        var comment = document.getElementById("comment1");
+        var D = new Date(1995, 08, 07, 20, 15);
+        like.innerHTML = 1452;
+        Date1.innerHTML = D.toUTCString();
+        comment.innerHTML = 2538;
+        var LIopject1 = { LI, like, Date1, comment };
+        //////////////////////////////////////////////////////////////////////////////////////////////////////       
+        //////////////////////////////////////////////////////////////////////////////////////////////////////
+        var LI = document.getElementById("LI2");
+        var like = document.getElementById("Like2");
+        var Date1 = document.getElementById("Date2");
+        var comment = document.getElementById("comment2");
+        var D1 = new Date(2002, 04, 12, 05, 10);
+        like.innerHTML = 512;
+        Date1.innerHTML = D1.toUTCString();
+        comment.innerHTML = 650;
+        var LIopject2 = { LI, like, Date1, comment };
+        ////////////////////////////////////////////////////////////////////////////////////////////////////// 
+        //////////////////////////////////////////////////////////////////////////////////////////////////////
+        var LI = document.getElementById("LI3");
+        var like = document.getElementById("Like3");
+        var Date1 = document.getElementById("Date3");
+        var comment = document.getElementById("comment3");
+        var D2 = new Date(2015, 11, 20, 15, 10);
+        like.innerHTML = 2500;
+        Date1.innerHTML = D2.toUTCString();
+        comment.innerHTML = 750;
+        var LIopject3 = { LI, like, Date1, comment };
+        ////////////////////////////////////////////////////////////////////////////////////////////////////// 
+        //////////////////////////////////////////////////////////////////////////////////////////////////////
+        var LI = document.getElementById("LI4");
+        var like = document.getElementById("Like4");
+        var Date1 = document.getElementById("Date4");
+        var comment = document.getElementById("comment4");
+        var D3 = new Date(2015, 11, 19, 09, 30);
+        like.innerHTML = 200;
+        Date1.innerHTML = D3.toUTCString();
+        comment.innerHTML = 3500;
+        var LIopject4 = { LI, like, Date1, comment };
+        ////////////////////////////////////////////////////////////////////////////////////////////////////// 
+        //////////////////////////////////////////////////////////////////////////////////////////////////////
+        var LI = document.getElementById("LI5");
+        var like = document.getElementById("Like5");
+        var Date1 = document.getElementById("Date5");
+        var comment = document.getElementById("comment5");
+        var D4 = new Date(2003, 11, 27, 05, 58);
+        like.innerHTML = 2363;
+        Date1.innerHTML = D4.toUTCString();
+        comment.innerHTML = 450;
+        var LIopject5 = { LI, like, Date1, comment };
+        ////////////////////////////////////////////////////////////////////////////////////////////////////// 
+        //////////////////////////////////////////////////////////////////////////////////////////////////////
+        var LI = document.getElementById("LI6");
+        var like = document.getElementById("Like6");
+        var Date1 = document.getElementById("Date6");
+        var comment = document.getElementById("comment6");
+        var D5 = new Date(2009, 4, 07, 11, 40);
+        like.innerHTML = 1300;
+        Date1.innerHTML = D5.toUTCString();
+        comment.innerHTML = 2265;
+        var LIopject6 = { LI, like, Date1, comment };
+        ////////////////////////////////////////////////////////////////////////////////////////////////////// 
+        //////////////////////////////////////////////////////////////////////////////////////////////////////
+        var LI = document.getElementById("LI7");
+        var like = document.getElementById("Like7");
+        var Date1 = document.getElementById("Date7");
+        var comment = document.getElementById("comment7");
+        var D6 = new Date(2005, 01, 02, 07, 20);
+        like.innerHTML = 3500;
+        Date1.innerHTML = D6.toUTCString();
+        comment.innerHTML = 1650;
+        var LIopject7 = { LI, like, Date1, comment };
+        ////////////////////////////////////////////////////////////////////////////////////////////////////// 
+        //////////////////////////////////////////////////////////////////////////////////////////////////////
+        var LI = document.getElementById("LI8");
+        var like = document.getElementById("Like8");
+        var Date1 = document.getElementById("Date8");
+        var comment = document.getElementById("comment8");
+        var D7 = new Date(2013, 02, 10, 01, 50);
+        like.innerHTML = 800;
+        Date1.innerHTML = D7.toUTCString();
+        comment.innerHTML = 1500;
+        var LIopject8 = { LI, like, Date1, comment };
+        ////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+        var arrayOfList = [LIopject1, LIopject2, LIopject3, LIopject4, LIopject5, LIopject6, LIopject7, LIopject8];
+
+
+        arrayOfList.sort(function (a, b) {
+            return parseFloat(b.like.value) - parseFloat(a.like.value);
+        });
+
+        var MyList = document.getElementById("MainList");
+        MyList.innerHTML = null;
+        for (var index = 0; index < arrayOfList.length; index++) {
+            MyList.appendChild(arrayOfList[index].LI);
+        }
+
+
+        document.getElementById("select1").onchange = function() {
+
+            var selectBox = document.getElementById("select1");
+            var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+
+
+            if (selectedValue == "Likes") {
+
+
+                arrayOfList.sort(function (a, b) {
+                    return parseFloat(b.like.value) - parseFloat(a.like.value);
+                });
+
+                MyList.innerHTML = null;
+
+                for (var index = 0; index < arrayOfList.length; index++) {
+                    MyList.appendChild(arrayOfList[index].LI);
+                }
+
+
+
+            } else if (selectedValue == "Comments") {
+
+
+                arrayOfList.sort(function (a, b) {
+                    return parseFloat(b.comment.value) - parseFloat(a.comment.value);
+                });
+
+                MyList.innerHTML = null;
+
+                for (var index = 0; index < arrayOfList.length; index++) {
+                    MyList.appendChild(arrayOfList[index].LI);
+                }
+
+
+
+            } else {
+
+                arrayOfList.sort(function (a, b) {
+
+                    return new Date(b.Date1.value) - new Date(a.Date1.value);
+                });
+
+                MyList.innerHTML = null;
+                for (var index = 0; index < arrayOfList.length; index++) {
+                    MyList.appendChild(arrayOfList[index].LI);
+                }
+
+
+
+            }
+
+
+        }
+
+
+    </script>
+</body>
+
+</html>
