@@ -1,0 +1,128 @@
+
+body  {
+   margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 10%;
+    margin-left: 10%; 
+
+    background-image: url("backgroundPic.png");
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+   
+}
+ 
+ 
+ 
+output {
+	
+margin-left : 15px;
+margin-right : 2px;	
+	
+	
+}
+#secondBody {
+background-color:rgba(246, 246, 255 , 1);
+}
+
+#TopIcons {
+display : inline-flex;
+font-weight : bold ;
+font-family: Arial;
+}
+
+#TopIcons a {
+	text-decoration:none;
+	color : white;
+	font-size: 100%;
+	line-height: 500%;
+} 
+
+.OrangeBackgraund {
+ 
+background-color:rgba(240, 117, 48 , 1);
+    width : 926px;
+
+ }
+  
+.SubjectTitle {
+color : black;
+font-size: 120%;
+text-decoration:none;
+  font-weight: bold;
+  padding-left: 10px;  
+
+}
+
+
+.hline-bottom {
+    margin-right: 1%;
+    padding-bottom: 1%;
+    border-bottom: 2px solid gray; 
+}
+
+
+li.discriptin {
+ font-size: 100%;
+ list-style-type: none;
+ 
+  padding-top : 4px;
+  list-style-image: none;
+}
+
+#footDiv a {
+font-weight : bold;
+color : black;
+text-decoration:none;
+}
+
+
+
+.grayColor {
+color : gray;
+}
+
+
+#sortBy{
+	float : right;
+	
+}
+ 
+
+ul li {
+	
+	 list-style-image: url('ListIMG.png');
+}
+#FirstIcon{
+background: gray  ;
+width : 15%;
+text-align: center; 
+vertical-align: middle;
+}
+
+.span1 {
+      padding: 31px 25px 32px 25px;
+}
+
+.span1:hover {
+color : black ;
+background-color:rgba(246, 246, 239 , 1);
+}
+#hid {
+	
+	border-top: 2px solid LightGray;
+	border-bottom: 1px solid LightGray; 
+	font-size: 100% ;  
+	margin-top : 7px;
+	
+	padding : 10px;
+ 
+	
+}
+#Span2 {
+	width :20px;
+	padding-left : 20px;
+	padding-right : 10px;
+	
+}

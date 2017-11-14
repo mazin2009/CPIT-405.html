@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Submit news </title>
+	<link rel="stylesheet" type="text/css" href="cssForPage3.css">
+
+
+</head>
+
+
+<body>
+
+	<div id="Body1">
+
+		<h1>Submit</h1>
+
+		<form action="#not-implemented">
+			Title:
+			<br>
+			<input id="titleText" class="Input" value="" type="text" name="Title" required>
+			<br>
+			<br> URL:
+			<br>
+			<input id="urlText" style=" background:wait; " class="Input1" type="text" name="URL" required>
+			<br>
+			<br>
+			<br>
+			<b>or </b>
+			<br>
+			<br> Text:
+			<br>
+			<textarea id="textFild" style="border: 1px solid black;  height : 100px;width:97%;; margin-top:10px;" rows="4" cols="40" required > </textarea>
+			<br>
+			<br>
+			<input id="SubButton" class="button" type="button" value="Submit">
+
+
+
+
+		</form>
+
+	</div>
+
+
+	<script>
+
+
+
+		var but = document.getElementById("SubButton");
+		var P = document.createElement("p");
+		P.setAttribute("id", "Alert");
+		but.onclick = function () {
+
+			var titleText = document.getElementById("titleText").value;
+			var urlText = document.getElementById("urlText").value;
+			var textFild = document.getElementById("textFild").value;
+			var BodyDiv = document.getElementById("Body1");
+
+
+			var Text1 = ("Title Must be filled out ");
+			var Text2 = ("Eather URL or Text field must be filled out");
+
+
+			if (titleText.length <= 0 && urlText.length <= 0) {
+				if (textFild.length > 1) {
+					console.log(urlText.length + "" + textFild.length);
+					P.style.display = "";
+					P.innerHTML = Text1;
+					BodyDiv.appendChild(P);
+				} else {
+					P.style.display = "";
+					P.innerHTML = Text1 + "<br>" + Text2;
+					BodyDiv.appendChild(P);
+
+				}
+
+
+			} else if (titleText.length >= 0 && urlText.length <= 0) {
+			 
+					P.style.display = "";
+					P.innerHTML = Text2;
+					BodyDiv.appendChild(P);
+				 
+
+			} else if (textFild.length >= 1 && titleText.length <= 0) {
+
+				P.style.display = "";
+				P.innerHTML = Text1;
+				BodyDiv.appendChild(P);
+			}
+			else {
+				P.style.display = "none";
+				BodyDiv.appendChild(P);
+
+			}
+
+
+		}
+
+
+	</script>
+</body>
+
+</html>
