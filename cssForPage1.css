@@ -5,7 +5,7 @@ body  {
     margin-right: 10%;
     margin-left: 10%; 
 
-    background-image: url("CPIT-405.html/backgroundPic.png");
+    background-image: url('CPIT-405.html/backgroundPic.png');
     background-repeat: repeat;
     background-position: right top;
     background-attachment: fixed;
