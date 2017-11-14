@@ -32,6 +32,13 @@ font-weight : bold ;
 font-family: Arial;
 }
 
+.ImgList{
+	
+	padding : 7px;
+	
+}
+
+
 #TopIcons a {
 	text-decoration:none;
 	color : white;
@@ -67,7 +74,7 @@ li.discriptin {
  font-size: 100%;
  list-style-type: none;
  
-  padding-top : 4px;
+  padding : 7px;
   list-style-image: none;
 }
 
